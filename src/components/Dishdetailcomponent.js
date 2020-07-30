@@ -59,10 +59,10 @@ function RenderComments({commentsArr}){
         if(dishItem != null){
             return(
                 <div className="row">
-                <div className="col-md-5 mt-4 col-12">
+                <div className="col-md-5  mt-4 col-12">
                     <Card> <RenderDish dish={props.dish}/> </Card>
                 </div>
-                <div className="col-md-5 mt-4 col-12">
+                <div className="col-md-5  mt-4 col-12">
                     <Card className="pl-3"> <RenderComments commentsArr ={props.dish.comments} /> </Card>
                 </div>
                 </div>
